@@ -6,7 +6,6 @@ import numpy as np
 import PIL.Image
 import torch
 import torch.nn.functional as F
-# from diffusers.utils import is_compiled_module
 from diffusers.utils.torch_utils import is_compiled_module
 from diffusers.pipelines.controlnet.multicontrolnet import MultiControlNetModel
 from diffusers.models import ControlNetModel
